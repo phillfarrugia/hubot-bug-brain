@@ -1,0 +1,39 @@
+{
+  "name": "hubot-bug-brain",
+  "description": "A hubot script for tracking software bugs",
+  "version": "0.0.0",
+  "author": "Phill Farrugia <me@phillfarrugia.com>",
+  "license": "MIT",
+
+  "keywords": ["bug","software","jira","tracker","issues","issue"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-bug-brain.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-bug-brain/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
