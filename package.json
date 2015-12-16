@@ -4,22 +4,26 @@
   "version": "0.0.0",
   "author": "Phill Farrugia <me@phillfarrugia.com>",
   "license": "MIT",
-
-  "keywords": ["bug","software","jira","tracker","issues","issue"],
-
+  "keywords": [
+    "bug",
+    "software",
+    "jira",
+    "tracker",
+    "issues",
+    "issue"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-bug-brain.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-bug-brain/issues"
   },
-
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "moment": "^2.10.6",
+    "uniquely": "0.0.2"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +34,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
