@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-bug-brain.git"
+    "url": "https://github.com/phillfarrugia/hubot-bug-brain.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-bug-brain/issues"
+    "url": "https://github.com/phillfarrugia/hubot-bug-brain/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
