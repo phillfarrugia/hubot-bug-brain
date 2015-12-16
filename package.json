@@ -1,7 +1,7 @@
 {
   "name": "hubot-bug-brain",
   "description": "A hubot script for tracking software bugs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Phill Farrugia <me@phillfarrugia.com>",
   "license": "MIT",
   "keywords": [
